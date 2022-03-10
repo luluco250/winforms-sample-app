@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yhApYPENjZ+WElgflohPzvxq9IKNw7a3C0SSg/PsxVNH34k5aTc7JlnWuhIXohdHZHsXgHqRfoisJb7Y4zb98A==",
+  "success": true,
+  "projectFilePath": "D:\\lucasm\\Projects\\dotnet\\WinFormsSampleApp\\WinFormsSampleApp\\WinFormsSampleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucasm\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucasm\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
