@@ -11,6 +11,13 @@ Views serve as a basis for injectable UI, as Windows Forms doesn't natively
 play well with DI/IoC. This is handled by `ViewService`, which resolves
 dependencies using utilities from `Microsoft.Extensions.DependencyInjection`.
 
+One key point about constructor dependencies in Windows Forms is that the
+Visual Studio form/user control designer is unable to edit classes with no
+empty constructor. A simple workaround for this is to make a private empty
+constructor, as it uses reflection to instantiate any constructor regardless of
+accessibility. Nullable member checks can be safely ignored due to the designer
+not making any use of them (it only really executes `InitializeComponent()`).
+
 Other than that there is a single form used as a host for said views.
 
 A few improvements could be done, namely some kind of message box service
